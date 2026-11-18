@@ -1,0 +1,31 @@
+# Dependencies
+node_modules/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Database and local data
+apps/api/data/
+*.db
+*.db-shm
+*.db-wal
+
+# Build output
+dist/
+build/
+
+# Caches
+.cache/
+.vite/
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS and IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
